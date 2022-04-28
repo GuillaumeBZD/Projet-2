@@ -305,10 +305,17 @@ aside figure {
 }
 
 /*image activité */
+article figure {
+  margin: 0;
+}
 
 .image_activite {
   display: flex;
   flex-direction: row wrap;
+  border: solid red 2px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 .grandes {
   width: 100%;
