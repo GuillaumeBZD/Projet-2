@@ -136,7 +136,7 @@ dl i {
 }
 
 /*Texte filtres*/
-dd {
+section dd {
   font-weight: 900;
   font-size: 16px;
   border: solid 2px;
@@ -150,7 +150,7 @@ dd {
   height: 48px;
 }
 
-dt {
+section dt {
   font-weight: bolder;
   align-self: center;
   font-size: 18px;
@@ -355,37 +355,64 @@ footer {
   width: 100%;
   margin: auto;
   height: auto;
+  min-height: 200px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: flex-start;
   align-content: flex-start;
+  justify-content: flex-start;
   border: solid black 2px;
   max-width: 1440px;
+  box-sizing: border-box;
+  padding-left: 25px;
+  gap: 110px;
 }
 
-#apropos {
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  padding: 25px;
-  width: 25%;
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
 }
 
-#noshebergements {
+footer dt {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+footer dd {
+  font-size: 15px;
+  margin-inline-start: 0;
+  padding-top: 15px;
+}
+#a_propos {
   display: flex;
   flex-flow: column;
-  justify-content: space-around;
-  padding: 25px;
   width: 25%;
+  height: 100%;
+  margin: 0;
+  padding-top: 25px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#nos_hebergements {
+  display: flex;
+  flex-flow: column;
+  width: 25%;
+  margin: 0;
+  padding-top: 25px;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 #assistance {
   display: flex;
   flex-flow: column;
-  justify-content: space-around;
-  padding: 25px;
   width: 25%;
+  margin: 0;
+  padding-top: 25px;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 /* penser a enlever les border solid 2px black */
