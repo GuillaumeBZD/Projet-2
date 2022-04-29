@@ -305,8 +305,9 @@ aside figure {
 }
 
 /*image activité */
-article figure {
+.activite_a_marseille figure {
   margin: 0;
+  border-radius: 7% 7% 0 0;
 }
 
 .image_activite {
@@ -316,6 +317,9 @@ article figure {
   gap: 20px;
   justify-content: center;
   align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .grandes {
   width: 100%;
@@ -336,19 +340,16 @@ article figure {
 }
 
 .petite_activite {
-  border: solid black 2px;
   width: 100%;
   background-color: white;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
 }
 
 .grandes_activites {
   width: 100%;
 }
-
-.activite_a_marseille figure {
-  border: solid black 2px;
-}
-
 /*gestion footer*/
 footer {
   background-color: #f2f2f2;
