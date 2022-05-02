@@ -239,12 +239,15 @@ main h2 {
   padding-top: 20px;
 }
 
-main p {
+.afficher {
   width: 100%;
-  padding-left: 60px;
-  padding-top: 20px;
+  padding: 20px 0 30px 60px;
+  font-size: large;
 }
 
+main i {
+  margin-left: -4px;
+}
 /*gestion du aside*/
 
 aside {
@@ -468,7 +471,7 @@ footer dd {
   align-items: flex-start;
 }
 
-/* penser a enlever les border solid 2px black */
+@media all and (max-width: 992px); /* penser a enlever les border solid 2px black */
 /* penser a enlever les border solid 2px black */
 /* penser a enlever les border solid 2px black */
 /* penser a enlever les border solid 2px black */
