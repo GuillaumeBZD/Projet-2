@@ -349,7 +349,7 @@ aside p {
   flex-flow: column wrap;
   box-sizing: border-box;
   padding-bottom: 45px;
-  height: ;
+  height: auto;
 }
 .activite_a_marseille h2 {
   width: 100%;
@@ -379,6 +379,7 @@ aside p {
   border: solid black 2px;
   height: auto;
   width: 100%;
+  box-sizing: border-box;
 }
 .grandes {
   width: 340px;
