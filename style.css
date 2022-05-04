@@ -308,7 +308,7 @@ aside h2 {
 
 aside figure {
   display: flex;
-  flex-direction: row wrap;
+  flex-direction: row;
   background-color: white;
   padding: 5px 5px 5px 5px;
   border-radius: 25px 25px;
@@ -346,11 +346,11 @@ aside p {
 
 .activite_a_marseille {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   box-sizing: border-box;
   padding-bottom: 45px;
-  height: auto;
-  max-width: 1440px;
+  height: 100%;
+  width: auto;
 }
 .activite_a_marseille h2 {
   width: 100%;
@@ -370,14 +370,14 @@ aside p {
 
 .image_activite {
   display: flex;
-  flex-direction: row wrap;
+  flex-direction: row;
   gap: 30px;
   justify-content: center;
   align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
-  height: auto;
+  height: 440px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -406,7 +406,6 @@ aside p {
   background-color: white;
   display: flex;
   flex-flow: column wrap;
-  align-items: space-between;
   justify-content: space-between;
   height: 100%;
 }
@@ -421,7 +420,6 @@ aside p {
   background-color: white;
   display: flex;
   flex-flow: column wrap;
-  align-items: space-between;
   justify-content: space-between;
   height: 100%;
 }
@@ -435,9 +433,9 @@ aside p {
   font-weight: bold;
 }
 
-.activite_a_marseille img {
-  box-sizing: border-box;
-  position: sticky;
+.activite_lien {
+  text-decoration: none;
+  color: black;
 }
 /*gestion footer*/
 footer {
@@ -504,19 +502,4 @@ footer dd {
   align-items: flex-start;
 }
 
-@media all and (max-width: 992px); /* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
-/* penser a enlever les border solid 2px black */
+@media all and (max-width: 992px);
