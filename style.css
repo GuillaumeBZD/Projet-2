@@ -502,4 +502,21 @@ footer dd {
   align-items: flex-start;
 }
 
-@media all and (max-width: 992px);
+@media all and (max-width: 992px) {
+  #style_page {
+    margin: 40px;
+  }
+  main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+  }
+
+  main article {
+    width: auto;
+  }
+
+  aside {
+    width: auto;
+  }
+}
