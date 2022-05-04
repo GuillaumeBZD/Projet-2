@@ -365,7 +365,7 @@ aside p {
   box-sizing: border-box;
   border-radius: 20px;
   overflow: hidden;
-  width: 338px;
+  width: 100%;
 }
 
 .image_activite {
@@ -382,22 +382,22 @@ aside p {
   box-sizing: border-box;
 }
 .grandes {
-  width: 340px;
+  width: 100%;
   height: 400px;
 }
 
 .petites {
-  width: 340px;
+  width: 100%;
   height: 110px;
 }
 
 .moyennes {
-  width: 340px;
+  width: 100%;
   height: 215px;
 }
 
 .moitie {
-  min-width: 340px;
+  width: 100%;
   height: 163px;
 }
 
