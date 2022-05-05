@@ -123,6 +123,12 @@ button {
 }
 
 /*vignette filtre*/
+section dl {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
 dl i {
   color: #0065fc;
   font-size: 17px;
