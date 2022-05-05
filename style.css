@@ -190,6 +190,7 @@ section dt {
 
 main {
   width: 100%;
+  height: 100%;
   padding: 20px 0 20px 0;
   gap: 35px;
   display: flex;
