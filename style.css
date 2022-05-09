@@ -293,6 +293,7 @@ aside {
   flex-direction: column;
   height: auto;
   padding: 40px;
+  min-width: 375px;
   border-radius: 25px 25px;
   width: 30%;
   background-color: #f2f2f2;
@@ -512,7 +513,7 @@ footer dd {
   justify-content: flex-start;
   align-items: flex-start;
 }
-
+/* pour le responsive tablette */
 @media all and (max-width: 992px) {
   #style_page {
     margin: 40px;
@@ -542,7 +543,7 @@ footer dd {
     height: 100%;
   }
 }
-
+/* pour le responsive mobile */
 @media all and (max-width: 768px) {
   body {
     font-size: 16px;
