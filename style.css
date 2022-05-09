@@ -584,13 +584,21 @@ footer dd {
   }
 
   /* pour le main en mobile */
-
+  main article {
+    order: 2;
+  }
+  main aside {
+    order: 1;
+  }
   /* pour les activités en mobile */
   .activite_a_marseille {
     padding-left: 5%;
     padding-right: 5%;
     height: 100%;
+    width: 100%;
     box-sizing: content-box;
+    justify-content: center;
+    align-items: center;
   }
 
   .image_activite {
