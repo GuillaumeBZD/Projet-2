@@ -649,6 +649,7 @@ footer dd {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
+    gap: 0;
   }
 
   main article figure {
