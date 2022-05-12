@@ -633,9 +633,10 @@ footer dd {
 
   button {
     border-radius: 15px;
-    width: 55px;
+    width: 52px;
     margin-left: -15px;
     font-size: 19px;
+    box-sizing: border-box;
   }
   /* pour le main en mobile */
   main {
