@@ -349,7 +349,6 @@ aside figure {
 }
 
 aside figcaption {
-  height: 100%;
   display: flex;
   flex-flow: column nowrap;
   padding-left: 10px;
@@ -662,6 +661,10 @@ footer dd {
     font-size: 14px;
   }
 
+  .hotel_nom {
+    font-size: 15px;
+    font-weight: bolder;
+  }
   main article h2 {
     padding: 0;
   }
