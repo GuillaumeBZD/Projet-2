@@ -619,16 +619,24 @@ footer dd {
     margin: 0;
   }
   /* pour le main en mobile */
+  main {
+    padding: 0;
+  }
+
   main article {
     order: 2;
     padding: 0 5%;
     border-radius: 0;
     background-color: white;
+    justify-content: center;
+    align-items: center;
+    min-width: unset;
   }
   main aside {
     order: 1;
     border-radius: 0;
-    padding: 10% 5%;
+    padding: 5%;
+    min-width: unset;
   }
 
   main article h2 {
@@ -642,6 +650,7 @@ footer dd {
   .hotel {
     width: 100%;
     margin: 0;
+    box-sizing: border-box;
   }
 
   main article a {
@@ -650,15 +659,13 @@ footer dd {
     padding: 0;
   }
 
-  .images_hotel {
-    padding-left: 5%;
-    padding-right: 5%;
+  #images_hotel {
     height: 100%;
     width: 100%;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
   }
 
   main article figure {
@@ -666,10 +673,13 @@ footer dd {
     height: 100%;
   }
 
+  .afficher {
+    padding: 5% 0 0 0;
+  }
+
   /* pour les activités en mobile */
   .activite_a_marseille {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 5%;
     height: 100%;
     width: 100%;
     box-sizing: border-box;
