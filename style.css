@@ -638,6 +638,9 @@ footer dd {
     padding: 5%;
     min-width: unset;
   }
+  aside figcaption {
+    font-size: 14px;
+  }
 
   main article h2 {
     padding: 0;
