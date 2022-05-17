@@ -176,6 +176,14 @@ section dd {
   height: 48px;
 }
 
+.les_dd {
+  width: max-content;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
 section dt {
   font-weight: bolder;
   align-self: center;
