@@ -421,7 +421,6 @@ aside p {
   list-style: none;
   margin: 0;
   padding: 0;
-  height: 440px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -457,6 +456,7 @@ aside p {
 .grandes_activites {
   width: 100%;
   background-color: white;
+  height: 100%;
 }
 
 .moyennes_activites {
