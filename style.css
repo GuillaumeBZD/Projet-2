@@ -213,6 +213,7 @@ main {
   gap: 35px;
   display: flex;
   box-sizing: border-box;
+  justify-content: space-between;
 }
 
 main article {
