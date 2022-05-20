@@ -46,6 +46,7 @@ header {
 .logo_mob {
   display: none;
 }
+
 /*pour gerer la disposition des liens*/
 nav {
   display: flex;
@@ -681,7 +682,7 @@ footer dd {
 
   /* pour la partie de recherche en mobile */
   .panneau_filtre {
-    padding: 0 2%;
+    padding: 0 1%;
   }
 
   section dt {
@@ -690,6 +691,17 @@ footer dd {
 
   section dd {
     margin: 0;
+    margin-inline-start: 0;
+  }
+
+  .classic_dd {
+    margin-inline-start: 0;
+    font-size: 14px;
+  }
+
+  .duo {
+    margin-inline-start: 0;
+    font-size: 14px;
   }
 
   .desk {
